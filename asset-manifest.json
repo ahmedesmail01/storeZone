@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/storeZone/static/css/main.0373b4df.css",
+    "main.js": "/storeZone/static/js/main.8b9b9121.js",
+    "static/js/787.28cb0dcd.chunk.js": "/storeZone/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/storeZone/index.html",
+    "main.0373b4df.css.map": "/storeZone/static/css/main.0373b4df.css.map",
+    "main.8b9b9121.js.map": "/storeZone/static/js/main.8b9b9121.js.map",
+    "787.28cb0dcd.chunk.js.map": "/storeZone/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0373b4df.css",
+    "static/js/main.8b9b9121.js"
+  ]
+}
