@@ -6,7 +6,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg bg-light">
         <div className="container">
           <a className="navbar-brand" href="/#">
-            Store Zoon
+            Store Zone
           </a>
           <button
             className="navbar-toggler"
