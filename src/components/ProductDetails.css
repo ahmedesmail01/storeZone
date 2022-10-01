@@ -1,0 +1,18 @@
+.details .card-holder {
+  margin: 10px auto;
+}
+
+.details {
+  width: 100%;
+}
+
+.details .card-holder p {
+  height: auto;
+}
+
+.details .card-holder h5 {
+  height: auto;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}

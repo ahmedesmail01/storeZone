@@ -1,0 +1,41 @@
+.card-holder h5 {
+  height: 160px;
+  overflow: auto;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.card-holder p {
+  height: 200px;
+  overflow: auto;
+  text-align: justify;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.card-holder img {
+  height: 250px;
+}
+/* .card {
+  max-height: 70vh;
+} */
+
+@media (max-width: 767px) {
+  .card-holder p {
+    height: auto;
+  }
+  .card-holder h5 {
+    height: auto;
+  }
+  .card {
+    margin: 20px;
+  }
+}
+@media (min-width: 991px) {
+  .card-holder p {
+    height: 180px;
+  }
+}

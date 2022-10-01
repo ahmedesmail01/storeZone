@@ -1,0 +1,9 @@
+.carousel img {
+  height: calc(95vh - 60px);
+}
+
+@media (max-width: 767px) {
+  .carousel img {
+    height: calc(50vh - 60px);
+  }
+}
