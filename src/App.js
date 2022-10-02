@@ -2,10 +2,9 @@ import "./App.css";
 //import { useState } from "react";
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Slider from "./components/Slider";
-import ProductsList from "./components/ProductsList";
 import About from "./components/About";
 import ProductDetails from "./components/productDetails";
+import Home from "./components/Home";
 
 function App() {
   return (
@@ -17,8 +16,7 @@ function App() {
           path="/"
           element={
             <>
-              <Slider />
-              <ProductsList />
+              <Home />
             </>
           }
         />

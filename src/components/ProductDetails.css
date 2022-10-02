@@ -23,3 +23,9 @@
   width: fit-content;
   margin: 0 auto;
 }
+
+@media (max-width: 767px) {
+  .details .price {
+    font-size: 0.8rem;
+  }
+}

@@ -4,15 +4,15 @@ import "./ProductDetails.css";
 import "./Loading.css";
 
 function ProductDetails() {
-  const [product, setProduct] = useState({});
-  const params = useParams();
-
   const api_url = "https://fakestoreapi.com/products";
-  useEffect(() => {
+  const [product, setProduct] = useState({ x: 0 });
+  console.log(product);
+  const params = useParams();
+  const getProduct = () => {
     fetch(`${api_url}/${params.id}`)
       .then((res) => res.json())
-      .then((prod) => setProduct(prod));
-  }, []);
+      .then((product) => setProduct(product));
+  };
 
   const loading = () => {
     return (
@@ -27,7 +27,7 @@ function ProductDetails() {
       </>
     );
   };
-  const ProductData = () => {
+  const ProductData = (product) => {
     return (
       <>
         <div className="details">
@@ -51,6 +51,13 @@ function ProductDetails() {
       </>
     );
   };
-  return <>{product.length === 0 ? loading() : ProductData()}</>;
+  useEffect(() => {
+    getProduct();
+  }, []);
+  if (product !== { x: 0 }) {
+    return <>{ProductData(product)}</>;
+  } else {
+    return <>{loading()}</>;
+  }
 }
 export default ProductDetails;
