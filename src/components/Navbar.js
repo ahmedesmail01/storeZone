@@ -5,7 +5,7 @@ function Navbar() {
     <>
       <nav className="navbar navbar-expand-lg bg-light">
         <div className="container">
-          <a className="navbar-brand" href="/#">
+          <a className="navbar-brand" href="/home">
             Store Zone
           </a>
           <button
@@ -22,7 +22,7 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <Link className="nav-link active" aria-current="page" to={"/"}>
+                <Link className="nav-link active" aria-current="page" to={""}>
                   Home
                 </Link>
               </li>

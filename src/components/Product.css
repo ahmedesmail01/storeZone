@@ -19,9 +19,9 @@
 .card-holder img {
   height: 250px;
 }
-/* .card {
-  max-height: 70vh;
-} */
+.card-holder .card {
+  background-color: #e8dfca;
+}
 
 @media (max-width: 767px) {
   .card-holder p {

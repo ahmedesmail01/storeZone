@@ -16,3 +16,10 @@
   display: flex;
   align-items: center;
 }
+
+.details .price {
+  background-color: #7895b2;
+  padding: 10px 15px;
+  width: fit-content;
+  margin: 0 auto;
+}
