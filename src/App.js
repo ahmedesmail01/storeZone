@@ -13,7 +13,7 @@ function App() {
       <Routes>
         <Route
           exact
-          path="/"
+          path="/storeZone/"
           element={
             <>
               <Home />
@@ -21,7 +21,7 @@ function App() {
           }
         />
         <Route
-          path="/about"
+          path="/storeZone/about"
           element={
             <>
               <About />
@@ -29,7 +29,7 @@ function App() {
           }
         />
         <Route
-          path="/product/:id"
+          path="/storeZone/product/:id"
           element={
             <>
               <ProductDetails />

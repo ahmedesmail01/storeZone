@@ -18,7 +18,7 @@ function Product(props) {
             {/*             <p className="card-text">{product.description}</p>
              */}{" "}
             {showButton ? (
-              <Link to={`product/${product.id}`} className="btn btn-primary">
+              <Link to={`/product/${product.id}`} className="btn btn-primary">
                 See Details
               </Link>
             ) : null}
